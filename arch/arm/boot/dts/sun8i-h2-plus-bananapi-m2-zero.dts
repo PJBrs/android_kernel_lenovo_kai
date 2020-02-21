@@ -165,6 +165,10 @@
 	};
 };
 
+&mixer0 {
+	status = "okay";
+};
+
 &ohci0 {
 	status = "okay";
 };
@@ -216,4 +220,12 @@
 	phy-handle = <&int_mii_phy>;
 	phy-mode = "mii";
 	allwinner,leds-active-low;
+};
+
+&i2s2 {
+	status = "okay";
+};
+
+&sound_hdmi {
+	status = "okay";
 };
